@@ -18,10 +18,13 @@ input{
   padding-left: 10px;
   border: 1px solid rgba(0, 0, 160, 0.468);
   width: 235px;
+  height: 30px;
  
 }
 input:hover {
     border-color: rgb(34, 0, 255); 
+    border: 0px 0px 10px rgb(15, 0, 110),
+    0px 0px 20px rgb(15, 0, 110);
 }
 label{
     font-size: smaller;
@@ -30,5 +33,6 @@ button{
     font-size: smaller;
   margin-bottom: 30px;
   border: 1px solid rgba(160, 157, 0, 0.468);
+  height: 30px;
   
 }
