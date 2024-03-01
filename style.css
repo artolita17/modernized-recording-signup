@@ -1,0 +1,33 @@
+@font-face {
+    font-family: custom;
+    src: url('fontfaces/Poppins-SemiBold.ttf');
+}
+
+
+
+.card
+{
+    max-width: 599px; 
+    max-height: 599px; 
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(144, 144, 142, 0.203);
+}
+input{
+    border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 160, 0.468);
+ 
+}
+input:hover {
+    border-color: rgb(34, 0, 255); 
+}
+label{
+    font-size: smaller;
+}
+button{
+    font-size: smaller;
+  margin-bottom: 30px;
+  border: 1px solid rgba(160, 157, 0, 0.468);
+  
+}
